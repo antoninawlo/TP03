@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"matplotplusplus/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "nodesoup::@c12dc8f6f399c06ad5fb"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "matplot::@900000785becdfd3715c"
+		}
+	],
+	"id" : "ALL_BUILD::@da9a3d50974743c8a62b",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "matplotplusplus",
+		"source" : "matplotplusplus"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

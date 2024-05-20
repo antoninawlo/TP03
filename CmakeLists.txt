@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.11)
+project(TP03)
+
+add_subdirectory(matplotplusplus)
+add_subdirectory(pybind11)
+
+pybind11_add_module(TP03 main.cpp)
+
+target_link_libraries(TP03 PUBLIC matplot)
+set_property(TARGET matplot PROPERTY POSITION_INDEPENDENT_CODE ON)
+
+set_target_properties(TP03 PROPERTIES
+    OUTPUT_NAME "sygnaly"
+    SUFFIX ".pyd" 
+)

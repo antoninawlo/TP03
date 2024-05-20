@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Antonina/Desktop/TP03/matplotplusplus/CMakeLists.txt
+C:/Users/Antonina/Desktop/TP03/matplotplusplus/cmake/functions.cmake
+C:/Users/Antonina/Desktop/TP03/matplotplusplus/cmake/functions/ensure_build_type.cmake
+C:/Users/Antonina/Desktop/TP03/matplotplusplus/cmake/functions/link_external_libraries.cmake
+C:/Users/Antonina/Desktop/TP03/matplotplusplus/cmake/functions/project_flags.cmake
+C:/Users/Antonina/Desktop/TP03/matplotplusplus/cmake/functions/sanitizers.cmake
+C:/Users/Antonina/Desktop/TP03/matplotplusplus/cmake/functions/target_options.cmake
