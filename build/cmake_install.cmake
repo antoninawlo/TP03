@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/TP03")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/cmake_ex")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,10 +33,8 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
+  # Include the install script for the subdirectory.
   include("C:/Users/Antonina/Desktop/TP03/build/matplotplusplus/cmake_install.cmake")
-  include("C:/Users/Antonina/Desktop/TP03/build/pybind11/cmake_install.cmake")
-
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -14,72 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Path to a library.
-BLAS_Accelerate_LIBRARY:FILEPATH=BLAS_Accelerate_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_acml_LIBRARY:FILEPATH=BLAS_acml_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_acml_mp_LIBRARY:FILEPATH=BLAS_acml_mp_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_armpl_lp64_LIBRARY:FILEPATH=BLAS_armpl_lp64_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_blas_LIBRARY:FILEPATH=BLAS_blas_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_blis_LIBRARY:FILEPATH=BLAS_blis_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_complib_sgimath_LIBRARY:FILEPATH=BLAS_complib_sgimath_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_cxml_LIBRARY:FILEPATH=BLAS_cxml_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_dxml_LIBRARY:FILEPATH=BLAS_dxml_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_eml_LIBRARY:FILEPATH=BLAS_eml_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_essl_LIBRARY:FILEPATH=BLAS_essl_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_fjlapack_LIBRARY:FILEPATH=BLAS_fjlapack_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_flexiblas_LIBRARY:FILEPATH=BLAS_flexiblas_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_goto2_LIBRARY:FILEPATH=BLAS_goto2_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_mkl_intel_c_dll_LIBRARY:FILEPATH=BLAS_mkl_intel_c_dll_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_mkl_intel_lp64_dll_LIBRARY:FILEPATH=BLAS_mkl_intel_lp64_dll_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_mkl_rt_LIBRARY:FILEPATH=BLAS_mkl_rt_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_openblas_LIBRARY:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/openblas.lib
-
-//Path to a library.
-BLAS_scs_LIBRARY:FILEPATH=BLAS_scs_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_sgemm_LIBRARY:FILEPATH=BLAS_sgemm_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_sunperf_LIBRARY:FILEPATH=BLAS_sunperf_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_vecLib_LIBRARY:FILEPATH=BLAS_vecLib_LIBRARY-NOTFOUND
-
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lib.exe
 
@@ -89,37 +23,37 @@ CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Too
 CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3 /GR /EHsc
+CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /GR /EHsc
 
 //Flags used by the CXX compiler during DEBUG builds.
-CMAKE_CXX_FLAGS_DEBUG:STRING=/MDd /Zi /Ob0 /Od /RTC1
+CMAKE_CXX_FLAGS_DEBUG:STRING=/Zi /Ob0 /Od /RTC1
 
 //Flags used by the CXX compiler during MINSIZEREL builds.
-CMAKE_CXX_FLAGS_MINSIZEREL:STRING=/MD /O1 /Ob1 /DNDEBUG
+CMAKE_CXX_FLAGS_MINSIZEREL:STRING=/O1 /Ob1 /DNDEBUG
 
 //Flags used by the CXX compiler during RELEASE builds.
-CMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE:STRING=/O2 /Ob2 /DNDEBUG
 
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
-CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
+CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/Zi /O2 /Ob1 /DNDEBUG
 
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3
+CMAKE_C_FLAGS:STRING=/DWIN32 /D_WINDOWS
 
 //Flags used by the C compiler during DEBUG builds.
-CMAKE_C_FLAGS_DEBUG:STRING=/MDd /Zi /Ob0 /Od /RTC1
+CMAKE_C_FLAGS_DEBUG:STRING=/Zi /Ob0 /Od /RTC1
 
 //Flags used by the C compiler during MINSIZEREL builds.
-CMAKE_C_FLAGS_MINSIZEREL:STRING=/MD /O1 /Ob1 /DNDEBUG
+CMAKE_C_FLAGS_MINSIZEREL:STRING=/O1 /Ob1 /DNDEBUG
 
 //Flags used by the C compiler during RELEASE builds.
-CMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /DNDEBUG
+CMAKE_C_FLAGS_RELEASE:STRING=/O2 /Ob2 /DNDEBUG
 
 //Flags used by the C compiler during RELWITHDEBINFO builds.
-CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/Zi /O2 /Ob1 /DNDEBUG
 
 //Libraries linked by default with all C applications.
 CMAKE_C_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -138,9 +72,6 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
-
-//No help, variable specified on the command line.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/Antonina/Desktop/TP03/build/CMakeFiles/pkgRedirects
@@ -182,7 +113,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/TP03
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/cmake_ex
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -229,7 +160,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=TP03
+CMAKE_PROJECT_NAME:STATIC=cmake_ex
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.2.0
@@ -311,9 +242,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 // during RELWITHDEBINFO builds.
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
-
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
@@ -334,7 +262,7 @@ FETCHCONTENT_QUIET:BOOL=ON
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
 //Path to a library.
-FFTW_DOUBLE_LIB:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/fftw3.lib
+FFTW_DOUBLE_LIB:FILEPATH=FFTW_DOUBLE_LIB-NOTFOUND
 
 //Path to a library.
 FFTW_DOUBLE_OPENMP_LIB:FILEPATH=FFTW_DOUBLE_OPENMP_LIB-NOTFOUND
@@ -343,7 +271,7 @@ FFTW_DOUBLE_OPENMP_LIB:FILEPATH=FFTW_DOUBLE_OPENMP_LIB-NOTFOUND
 FFTW_DOUBLE_THREADS_LIB:FILEPATH=FFTW_DOUBLE_THREADS_LIB-NOTFOUND
 
 //Path to a library.
-FFTW_FLOAT_LIB:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/fftw3f.lib
+FFTW_FLOAT_LIB:FILEPATH=FFTW_FLOAT_LIB-NOTFOUND
 
 //Path to a library.
 FFTW_FLOAT_OPENMP_LIB:FILEPATH=FFTW_FLOAT_OPENMP_LIB-NOTFOUND
@@ -352,10 +280,10 @@ FFTW_FLOAT_OPENMP_LIB:FILEPATH=FFTW_FLOAT_OPENMP_LIB-NOTFOUND
 FFTW_FLOAT_THREADS_LIB:FILEPATH=FFTW_FLOAT_THREADS_LIB-NOTFOUND
 
 //Path to a file.
-FFTW_INCLUDE_DIRS:PATH=C:/vcpkg/installed/x64-windows/include
+FFTW_INCLUDE_DIRS:PATH=FFTW_INCLUDE_DIRS-NOTFOUND
 
 //Path to a library.
-FFTW_LONGDOUBLE_LIB:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/fftw3l.lib
+FFTW_LONGDOUBLE_LIB:FILEPATH=FFTW_LONGDOUBLE_LIB-NOTFOUND
 
 //Path to a library.
 FFTW_LONGDOUBLE_OPENMP_LIB:FILEPATH=FFTW_LONGDOUBLE_OPENMP_LIB-NOTFOUND
@@ -364,37 +292,13 @@ FFTW_LONGDOUBLE_OPENMP_LIB:FILEPATH=FFTW_LONGDOUBLE_OPENMP_LIB-NOTFOUND
 FFTW_LONGDOUBLE_THREADS_LIB:FILEPATH=FFTW_LONGDOUBLE_THREADS_LIB-NOTFOUND
 
 //Path to a file.
-JPEG_INCLUDE_DIR:PATH=C:/vcpkg/installed/x64-windows/include
+JPEG_INCLUDE_DIR:PATH=JPEG_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-JPEG_LIBRARY_DEBUG:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/jpeg.lib
+JPEG_LIBRARY_DEBUG:FILEPATH=JPEG_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-JPEG_LIBRARY_RELEASE:FILEPATH=C:/vcpkg/installed/x64-windows/lib/jpeg.lib
-
-//Path to a library.
-LAPACK_Accelerate_LIBRARY:FILEPATH=LAPACK_Accelerate_LIBRARY-NOTFOUND
-
-//Path to a library.
-LAPACK_armpl_lp64_LIBRARY:FILEPATH=LAPACK_armpl_lp64_LIBRARY-NOTFOUND
-
-//Path to a library.
-LAPACK_flame_LIBRARY:FILEPATH=LAPACK_flame_LIBRARY-NOTFOUND
-
-//Path to a library.
-LAPACK_goto2_LIBRARY:FILEPATH=LAPACK_goto2_LIBRARY-NOTFOUND
-
-//Path to a library.
-LAPACK_lapack_LIBRARY:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/lapack.lib
-
-//Path to a library.
-LAPACK_mkl_lapack_LIBRARY:FILEPATH=LAPACK_mkl_lapack_LIBRARY-NOTFOUND
-
-//Path to a library.
-LAPACK_openblas_LIBRARY:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/openblas.lib
-
-//Path to a library.
-LAPACK_vecLib_LIBRARY:FILEPATH=LAPACK_vecLib_LIBRARY-NOTFOUND
+JPEG_LIBRARY_RELEASE:FILEPATH=JPEG_LIBRARY_RELEASE-NOTFOUND
 
 //Build examples
 MATPLOTPP_BUILD_EXAMPLES:BOOL=OFF
@@ -461,7 +365,7 @@ OpenCV_FOUND:BOOL=FALSE
 PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
-PKG_CONFIG_EXECUTABLE:FILEPATH=C:/vcpkg/installed/x64-windows/tools/pkgconf/pkgconf.exe
+PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
 //Path to a library.
 PNG_LIBRARY_DEBUG:FILEPATH=PNG_LIBRARY_DEBUG-NOTFOUND
@@ -472,26 +376,6 @@ PNG_LIBRARY_RELEASE:FILEPATH=PNG_LIBRARY_RELEASE-NOTFOUND
 //Path to a file.
 PNG_PNG_INCLUDE_DIR:PATH=PNG_PNG_INCLUDE_DIR-NOTFOUND
 
-//To enforce that a handle_type_name<> specialization exists
-PYBIND11_DISABLE_HANDLE_TYPE_NAME_DEFAULT_IMPLEMENTATION:BOOL=OFF
-
-//Force new FindPython
-PYBIND11_FINDPYTHON:BOOL=OFF
-
-//Install pybind11 header files?
-PYBIND11_INSTALL:BOOL=OFF
-
-//Override the ABI version, may be used to enable the unstable
-// ABI.
-PYBIND11_INTERNALS_VERSION:STRING=
-
-//Disable search for Python
-PYBIND11_NOPYTHON:BOOL=OFF
-
-//Disable NumPy 2 support to avoid changes to previous pybind11
-// versions.
-PYBIND11_NUMPY_1_ONLY:BOOL=OFF
-
 //Overwrite cached values read from Python library (classic search).
 // Turn off if cross-compiling and manually setting these values.
 PYBIND11_PYTHONLIBS_OVERWRITE:BOOL=ON
@@ -499,165 +383,49 @@ PYBIND11_PYTHONLIBS_OVERWRITE:BOOL=ON
 //Python version to use for compiling modules
 PYBIND11_PYTHON_VERSION:STRING=
 
-//Use simpler GIL management logic that does not support disassociation
-PYBIND11_SIMPLE_GIL_MANAGEMENT:BOOL=OFF
-
-//Build pybind11 test suite?
-PYBIND11_TEST:BOOL=OFF
-
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=C:/Users/Antonina/AppData/Local/Microsoft/WindowsApps/python3.exe
 
 //Path to a file.
-TIFF_INCLUDE_DIR:PATH=C:/vcpkg/installed/x64-windows/include
+TIFF_INCLUDE_DIR:PATH=TIFF_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-TIFF_LIBRARY_DEBUG:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/tiffd.lib
+TIFF_LIBRARY_DEBUG:FILEPATH=TIFF_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-TIFF_LIBRARY_RELEASE:FILEPATH=C:/vcpkg/installed/x64-windows/lib/tiff.lib
-
-//Value Computed by CMake
-TP03_BINARY_DIR:STATIC=C:/Users/Antonina/Desktop/TP03/build
-
-//Value Computed by CMake
-TP03_IS_TOP_LEVEL:STATIC=ON
-
-//Dependencies for the target
-TP03_LIB_DEPENDS:STATIC=general;matplot;
-
-//Value Computed by CMake
-TP03_SOURCE_DIR:STATIC=C:/Users/Antonina/Desktop/TP03
+TIFF_LIBRARY_RELEASE:FILEPATH=TIFF_LIBRARY_RELEASE-NOTFOUND
 
 //The directory containing a CMake configuration file for Tiff.
 Tiff_DIR:PATH=Tiff_DIR-NOTFOUND
 
-//Automatically copy dependencies into the output directory for
-// executables.
-VCPKG_APPLOCAL_DEPS:BOOL=ON
-
-//The directory which contains the installed libraries for each
-// triplet
-VCPKG_INSTALLED_DIR:PATH=C:/vcpkg/installed
-
-//The path to the vcpkg manifest directory.
-VCPKG_MANIFEST_DIR:PATH=
-
-//Use manifest mode, as opposed to classic mode.
-VCPKG_MANIFEST_MODE:BOOL=OFF
-
-//Appends the vcpkg paths to CMAKE_PREFIX_PATH, CMAKE_LIBRARY_PATH
-// and CMAKE_FIND_ROOT_PATH so that vcpkg libraries/packages are
-// found after toolchain/system libraries/packages.
-VCPKG_PREFER_SYSTEM_LIBS:BOOL=OFF
-
-//Enable the setup of CMAKE_PROGRAM_PATH to vcpkg paths
-VCPKG_SETUP_CMAKE_PROGRAM_PATH:BOOL=ON
-
-//Vcpkg target triplet (ex. x86-windows)
-VCPKG_TARGET_TRIPLET:STRING=x64-windows
-
-//Trace calls to find_package()
-VCPKG_TRACE_FIND_PACKAGE:BOOL=OFF
-
-//Enables messages from the VCPKG toolchain for debugging purposes.
-VCPKG_VERBOSE:BOOL=OFF
-
-//(experimental) Automatically copy dependencies into the install
-// target directory for executables. Requires CMake 3.14.
-X_VCPKG_APPLOCAL_DEPS_INSTALL:BOOL=OFF
-
-//(experimental) Add USES_TERMINAL to VCPKG_APPLOCAL_DEPS to force
-// serialization.
-X_VCPKG_APPLOCAL_DEPS_SERIALIZED:BOOL=OFF
-
 //Path to a file.
-ZLIB_INCLUDE_DIR:PATH=C:/vcpkg/installed/x64-windows/include
+ZLIB_INCLUDE_DIR:PATH=C:/vcpkg/packages/zlib_x64-windows/include
 
 //Path to a library.
-ZLIB_LIBRARY_DEBUG:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/zlibd.lib
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-ZLIB_LIBRARY_RELEASE:FILEPATH=C:/vcpkg/installed/x64-windows/lib/zlib.lib
-
-//Path to a program.
-Z_VCPKG_BUILTIN_POWERSHELL_PATH:FILEPATH=C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
-
-//Path to a program.
-Z_VCPKG_PWSH_PATH:FILEPATH=Z_VCPKG_PWSH_PATH-NOTFOUND
-
-//The directory which contains the installed libraries for each
-// triplet
-_VCPKG_INSTALLED_DIR:PATH=C:/vcpkg/installed
-
-//Dependencies for the target
-matplot_LIB_DEPENDS:STATIC=general;nodesoup;
-
-//Path to a library.
-pkgcfg_lib_PKG_FFTW_fftw3:FILEPATH=C:/vcpkg/installed/x64-windows/debug/lib/fftw3.lib
+ZLIB_LIBRARY_RELEASE:FILEPATH=C:/vcpkg/packages/zlib_x64-windows/lib/zlib.lib
 
 //Value Computed by CMake
-pybind11_BINARY_DIR:STATIC=C:/Users/Antonina/Desktop/TP03/build/pybind11
+cmake_ex_BINARY_DIR:STATIC=C:/Users/Antonina/Desktop/TP03/build
 
 //Value Computed by CMake
-pybind11_IS_TOP_LEVEL:STATIC=OFF
+cmake_ex_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-pybind11_SOURCE_DIR:STATIC=C:/Users/Antonina/Desktop/TP03/pybind11
+cmake_ex_SOURCE_DIR:STATIC=C:/Users/Antonina/Desktop/TP03
+
+//The directory containing a CMake configuration file for pybind11.
+pybind11_DIR:PATH=C:/Users/Antonina/miniconda3/Library/share/cmake/pybind11
 
 
 ########################
 # INTERNAL cache entries
 ########################
 
-//ADVANCED property for variable: BLAS_Accelerate_LIBRARY
-BLAS_Accelerate_LIBRARY-ADVANCED:INTERNAL=1
 //Have function sgemm_
-BLAS_WORKS:INTERNAL=
-//ADVANCED property for variable: BLAS_acml_LIBRARY
-BLAS_acml_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_acml_mp_LIBRARY
-BLAS_acml_mp_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_armpl_lp64_LIBRARY
-BLAS_armpl_lp64_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_blas_LIBRARY
-BLAS_blas_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_blis_LIBRARY
-BLAS_blis_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_complib_sgimath_LIBRARY
-BLAS_complib_sgimath_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_cxml_LIBRARY
-BLAS_cxml_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_dxml_LIBRARY
-BLAS_dxml_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_eml_LIBRARY
-BLAS_eml_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_essl_LIBRARY
-BLAS_essl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_fjlapack_LIBRARY
-BLAS_fjlapack_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_flexiblas_LIBRARY
-BLAS_flexiblas_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_goto2_LIBRARY
-BLAS_goto2_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_intel_c_dll_LIBRARY
-BLAS_mkl_intel_c_dll_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_intel_lp64_dll_LIBRARY
-BLAS_mkl_intel_lp64_dll_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_rt_LIBRARY
-BLAS_mkl_rt_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_openblas_LIBRARY
-BLAS_openblas_LIBRARY-ADVANCED:INTERNAL=1
-//Have function sgemm_
-BLAS_openblas_WORKS:INTERNAL=1
-//ADVANCED property for variable: BLAS_scs_LIBRARY
-BLAS_scs_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_sgemm_LIBRARY
-BLAS_sgemm_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_sunperf_LIBRARY
-BLAS_sunperf_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_vecLib_LIBRARY
-BLAS_vecLib_LIBRARY-ADVANCED:INTERNAL=1
+BLAS_WORKS:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -776,7 +544,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -820,8 +588,6 @@ CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_TOOLCHAIN_FILE
-CMAKE_TOOLCHAIN_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Test COMPILER_HAS_DEPRECATED
@@ -849,23 +615,17 @@ FFTW_LONGDOUBLE_OPENMP_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FFTW_LONGDOUBLE_THREADS_LIB
 FFTW_LONGDOUBLE_THREADS_LIB-ADVANCED:INTERNAL=1
 //Details about finding BLAS
-FIND_PACKAGE_MESSAGE_DETAILS_BLAS:INTERNAL=[C:/vcpkg/installed/x64-windows/debug/lib/openblas.lib][v()]
-//Details about finding FFTW
-FIND_PACKAGE_MESSAGE_DETAILS_FFTW:INTERNAL=[C:/vcpkg/installed/x64-windows/include][c ][v()]
-//Details about finding JPEG
-FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[optimized;C:/vcpkg/installed/x64-windows/lib/jpeg.lib;debug;C:/vcpkg/installed/x64-windows/debug/lib/jpeg.lib][C:/vcpkg/installed/x64-windows/include][v62()]
+FIND_PACKAGE_MESSAGE_DETAILS_BLAS:INTERNAL=[implicitly linked][v()]
+//Details about finding LAPACK
+FIND_PACKAGE_MESSAGE_DETAILS_LAPACK:INTERNAL=[implicitly linked][v()]
 //Details about finding PYTHON
 FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=C:/Users/Antonina/AppData/Local/Microsoft/WindowsApps/python3.exe3.12.3
-//Details about finding PkgConfig
-FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[C:/vcpkg/installed/x64-windows/tools/pkgconf/pkgconf.exe][v2.2.0()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Users/Antonina/AppData/Local/Microsoft/WindowsApps/python3.exe][v3.12.3(3.6)]
-//Details about finding TIFF
-FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[optimized;C:/vcpkg/installed/x64-windows/lib/tiff.lib;debug;C:/vcpkg/installed/x64-windows/debug/lib/tiffd.lib][C:/vcpkg/installed/x64-windows/include][c ][v4.6.0()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
-FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[optimized;C:/vcpkg/installed/x64-windows/lib/zlib.lib;debug;C:/vcpkg/installed/x64-windows/debug/lib/zlibd.lib][C:/vcpkg/installed/x64-windows/include][c ][v1.3.1()]
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[C:/vcpkg/packages/zlib_x64-windows/lib/zlib.lib][C:/vcpkg/packages/zlib_x64-windows/include][c ][v1.3.1()]
 //Test HAS_MSVC_GL_LTCG
 HAS_MSVC_GL_LTCG:INTERNAL=1
 //Have symbol __fbufsize
@@ -876,74 +636,18 @@ JPEG_INCLUDE_DIR-ADVANCED:INTERNAL=1
 JPEG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: JPEG_LIBRARY_RELEASE
 JPEG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LAPACK_Accelerate_LIBRARY
-LAPACK_Accelerate_LIBRARY-ADVANCED:INTERNAL=1
 //Have function cheev_
-LAPACK_WORKS:INTERNAL=
-//ADVANCED property for variable: LAPACK_armpl_lp64_LIBRARY
-LAPACK_armpl_lp64_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LAPACK_flame_LIBRARY
-LAPACK_flame_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LAPACK_goto2_LIBRARY
-LAPACK_goto2_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LAPACK_lapack_LIBRARY
-LAPACK_lapack_LIBRARY-ADVANCED:INTERNAL=1
-//Have function cheev_
-LAPACK_lapack_WORKS:INTERNAL=1
-//ADVANCED property for variable: LAPACK_mkl_lapack_LIBRARY
-LAPACK_mkl_lapack_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LAPACK_openblas_LIBRARY
-LAPACK_openblas_LIBRARY-ADVANCED:INTERNAL=1
-//Have function cheev_
-LAPACK_openblas_WORKS:INTERNAL=
-//ADVANCED property for variable: LAPACK_vecLib_LIBRARY
-LAPACK_vecLib_LIBRARY-ADVANCED:INTERNAL=1
+LAPACK_WORKS:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_ARGN
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
-PKG_FFTW_CFLAGS:INTERNAL=-IC:/vcpkg/installed/x64-windows/debug/../include
-PKG_FFTW_CFLAGS_I:INTERNAL=
-PKG_FFTW_CFLAGS_OTHER:INTERNAL=
-PKG_FFTW_FOUND:INTERNAL=1
-PKG_FFTW_INCLUDEDIR:INTERNAL=C:/vcpkg/installed/x64-windows/debug/../include
-PKG_FFTW_INCLUDE_DIRS:INTERNAL=C:/vcpkg/installed/x64-windows/debug/../include
-PKG_FFTW_LDFLAGS:INTERNAL=-LC:/vcpkg/installed/x64-windows/debug/lib;-lfftw3
-PKG_FFTW_LDFLAGS_OTHER:INTERNAL=
-PKG_FFTW_LIBDIR:INTERNAL=C:/vcpkg/installed/x64-windows/debug/lib
-PKG_FFTW_LIBRARIES:INTERNAL=fftw3
-PKG_FFTW_LIBRARY_DIRS:INTERNAL=C:/vcpkg/installed/x64-windows/debug/lib
-PKG_FFTW_LIBS:INTERNAL=
-PKG_FFTW_LIBS_L:INTERNAL=
-PKG_FFTW_LIBS_OTHER:INTERNAL=
-PKG_FFTW_LIBS_PATHS:INTERNAL=
-PKG_FFTW_MODULE_NAME:INTERNAL=fftw3
-PKG_FFTW_PREFIX:INTERNAL=C:/vcpkg/installed/x64-windows/debug
-PKG_FFTW_STATIC_CFLAGS:INTERNAL=-IC:/vcpkg/installed/x64-windows/debug/../include
-PKG_FFTW_STATIC_CFLAGS_I:INTERNAL=
-PKG_FFTW_STATIC_CFLAGS_OTHER:INTERNAL=
-PKG_FFTW_STATIC_INCLUDE_DIRS:INTERNAL=C:/vcpkg/installed/x64-windows/debug/../include
-PKG_FFTW_STATIC_LDFLAGS:INTERNAL=-LC:/vcpkg/installed/x64-windows/debug/lib;-lfftw3
-PKG_FFTW_STATIC_LDFLAGS_OTHER:INTERNAL=
-PKG_FFTW_STATIC_LIBDIR:INTERNAL=
-PKG_FFTW_STATIC_LIBRARIES:INTERNAL=fftw3
-PKG_FFTW_STATIC_LIBRARY_DIRS:INTERNAL=C:/vcpkg/installed/x64-windows/debug/lib
-PKG_FFTW_STATIC_LIBS:INTERNAL=
-PKG_FFTW_STATIC_LIBS_L:INTERNAL=
-PKG_FFTW_STATIC_LIBS_OTHER:INTERNAL=
-PKG_FFTW_STATIC_LIBS_PATHS:INTERNAL=
-PKG_FFTW_VERSION:INTERNAL=3.3.9
-PKG_FFTW_fftw3_INCLUDEDIR:INTERNAL=
-PKG_FFTW_fftw3_LIBDIR:INTERNAL=
-PKG_FFTW_fftw3_PREFIX:INTERNAL=
-PKG_FFTW_fftw3_VERSION:INTERNAL=
 //ADVANCED property for variable: PNG_LIBRARY_DEBUG
 PNG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PNG_LIBRARY_RELEASE
 PNG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PNG_PNG_INCLUDE_DIR
 PNG_PNG_INCLUDE_DIR-ADVANCED:INTERNAL=1
-PYBIND11_INCLUDE_DIR:INTERNAL=C:/Users/Antonina/Desktop/TP03/pybind11/include
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 PYTHON_INCLUDE_DIRS:INTERNAL=C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0/Include
@@ -962,38 +666,15 @@ TIFF_INCLUDE_DIR-ADVANCED:INTERNAL=1
 TIFF_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: TIFF_LIBRARY_RELEASE
 TIFF_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//Install the dependencies listed in your manifest:
-//\n    If this is off, you will have to manually install your dependencies.
-//\n    See https://github.com/microsoft/vcpkg/tree/master/docs/specifications/manifests.md
-// for more info.
-//\n
-VCPKG_MANIFEST_INSTALL:INTERNAL=OFF
-//ADVANCED property for variable: VCPKG_VERBOSE
-VCPKG_VERBOSE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_INCLUDE_DIR
 ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
 ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
 ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//Making sure VCPKG_MANIFEST_MODE doesn't change
-Z_VCPKG_CHECK_MANIFEST_MODE:INTERNAL=OFF
-//The path to the PowerShell implementation to use.
-Z_VCPKG_POWERSHELL_PATH:INTERNAL=C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
-//Vcpkg root directory
-Z_VCPKG_ROOT_DIR:INTERNAL=C:/vcpkg
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/TP03
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/cmake_ex
 _Python:INTERNAL=PYTHON
-__pkg_config_arguments_PKG_FFTW:INTERNAL=QUIET;fftw3
-__pkg_config_checked_PKG_FFTW:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PKG_FFTW_fftw3
-pkgcfg_lib_PKG_FFTW_fftw3-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=C:/vcpkg/installed/x64-windows/debug/lib
-//True if pybind11 and all required components found on the system
-pybind11_FOUND:INTERNAL=TRUE
-//Directory where pybind11 headers are located
-pybind11_INCLUDE_DIR:INTERNAL=C:/Users/Antonina/Desktop/TP03/pybind11/include
 //Directories where pybind11 and possibly Python headers are located
-pybind11_INCLUDE_DIRS:INTERNAL=C:/Users/Antonina/Desktop/TP03/pybind11/include;C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0/Include
+pybind11_INCLUDE_DIRS:INTERNAL=C:/Users/Antonina/miniconda3/Library/include;C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0/Include
 

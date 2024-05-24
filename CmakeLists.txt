@@ -1,15 +1,28 @@
-cmake_minimum_required(VERSION 3.11)
-project(TP03)
+cmake_minimum_required(VERSION 3.4...3.18)
+project(cmake_ex)
+
+include_directories(${pybind11_INCLUDE_DIR})
+include_directories(${Python3_INCLUDE_DIRS})
+include_directories(${AudioFile_SOURCE_DIR})
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+#set(pybind11_DIR "C:/Users/ego/.conda/envs/tp3/Library/share/cmake/pybind11")
+
+find_package(pybind11 REQUIRED)
 
 add_subdirectory(matplotplusplus)
-add_subdirectory(pybind11)
 
-pybind11_add_module(TP03 main.cpp)
+pybind11_add_module(cmake_ex src/main.cpp)
+add_executable(cmakx src/main.cpp)
 
-target_link_libraries(TP03 PUBLIC matplot)
-set_property(TARGET matplot PROPERTY POSITION_INDEPENDENT_CODE ON)
+target_link_libraries(cmakx PUBLIC matplot)
+target_link_libraries(cmakx PRIVATE pybind11::module)
 
-set_target_properties(TP03 PROPERTIES
-    OUTPUT_NAME "sygnaly"
-    SUFFIX ".pyd" 
+target_link_libraries(cmake_ex PUBLIC matplot)
+target_link_libraries(cmake_ex PRIVATE pybind11::module)
+set_target_properties(cmake_ex PROPERTIES PREFIX "" SUFFIX ".pyd")
+
+add_custom_command(TARGET cmake_ex POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:cmake_ex> ${PROJECT_SOURCE_DIR}/build
 )

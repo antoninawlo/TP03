@@ -195,7 +195,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP03\build\pybind11\ALL_BUILD.vcxproj">
+    <ProjectReference Include="C:\Users\Antonina\Desktop\TP03\build\ALL_BUILD.vcxproj">
       <Project>{5A323DBF-BF54-32A9-988E-7C67BDF13818}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

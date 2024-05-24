@@ -1,6 +1,6 @@
 ^C:\USERS\ANTONINA\DESKTOP\TP03\BUILD\CMAKEFILES\811360546507DEC3549AE01493910815\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP03 -BC:/Users/Antonina/Desktop/TP03/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Antonina/Desktop/TP03/build/TP03.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP03 -BC:/Users/Antonina/Desktop/TP03/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Antonina/Desktop/TP03/build/cmake_ex.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
